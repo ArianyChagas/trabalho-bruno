@@ -2,28 +2,34 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="perfil.css">
     <title>Login</title>
 </head>
 <body>
-    <img src="admin.png" alt="logo">
-
-    <div class="tituloForm">
-        <h3><p>Realize seu login</p></h3>
-    </div>
-
-    <div class="form">
-        <h4><label for="usuario">Usúario ou e-mail</label></h4>
-        <input type="text" id="usuario" placeholder="Vit_Vargas" required="required" name="nomeid" />
+          <div class="tituloForm">
+          <h3><p>
+            Realize seu login abaixo
+          </p></h3>
+      </div>
+      <div class="form">
+          <h4><label for="nome">Usúario ou E-mail</label></h4>
+          <input type="text" name="Login" id="usuarioemail" placeholder="Vit_Vargas"> <br>
         <br>
-        <h4><label for="fone">Senha</label></h4>
-        <input type="text" id="senha" placeholder="*******" name="senha" />
-        <br>
-        <input type="submit" class="login" onclick="Logar();" value="Logar" />
-    </div>
-
-    <script src="login.js"></script>
+          <h4><label for="fone">Senha</label></h4>
+          <input type="text" name="Senha" id="senha" placeholder="********"> <br>
+    <br>
+    <input type="submit" class="enviar" onclick="Enviar();" value="Entrar" />
+    <a href="/Perfil/pgrecuperaçãosenha.html"><p>Esqueceu sua Senha?</p></a>
+      </div>
+        <footer>
+            <div class="col">
+              <ul>
+               Trabalho realizado por Ariany de Mello Chagas | Turma 3a
+              </ul>
+            </div>
+      </footer>
+    </div> 
 </body>
 </html>

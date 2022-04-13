@@ -1,5 +1,5 @@
 body{
-    background-color: #08428d;
+    background-color: #113741;
     border-width:10px;
     text-align: center;
 }
@@ -90,7 +90,7 @@ input, textarea {
 
 
 .enviar {
-    background-color: #08428d;
+    background-color: #113741;
     height: 40px;
     width: 100px;
     font-weight: bold;
@@ -113,4 +113,3 @@ form label {
     color: #FFFFFF;
     font-weight: bold;
 }
-
