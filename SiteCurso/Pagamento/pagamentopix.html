@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+    <title>Pix</title>
+</head>
+<body>
+    <img src="admin.png" alt="logo">
+    <br><br><br>
+    <div class="subtitulo">
+        <h3>Preencha seus dados e realize seu pagamento</h3>
+    </div>
+
+    <div class="form">
+        <label for="nome">Nome Completo: </label>
+        <input type="text" id="nomeid" placeholder="Vitoria Vargas" required="required" name="nome" />
+        <br>
+        <label for="fone">Telefone: </label>
+        <input type="tel" id="foneid" placeholder="(xx)xx-xx-xx-xx" name="fone" />
+        <br>
+        <label for="email">Email: </label>
+        <input type="email" id="emailid" placeholder="VitVargas623@gmail.com" name="email" />
+        <br>
+        <label for="CPF">CPF: </label>
+        <input type="text" id="emailid" placeholder="XXX.XXX.XXX-XX" name="CPF" />
+        <br>
+        <input type="submit" class="enviar" onclick="Enviar();" value="Cadastrar" />
+    </div>
+    <div class="piximg">
+        <img src="pix (1).png" width="20%" height="30%" alt="">
+    </div>
+
+      <script src="Index.js"></script>
+</body>
+</html>
